@@ -1,0 +1,58 @@
+.collectionWrapper {
+  background-color: var(--secondary-bg);
+}
+.collection {
+  padding: 15px 0px 40px;
+}
+.collectionSubtitleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.collectionSubtitleText {
+  color: var(--subtitle-text);
+  font-size: 18px;
+}
+.collectionLocation {
+  color: var(--zomato-red);
+  display: flex;
+}
+.collectionCover {
+  height: 320px;
+  width: 260px;
+  margin-right: 20px;
+  border-radius: 6px;
+  position: relative;
+  z-index: 2;
+}
+.gradientBg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: var(--bg-gradient);
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+}
+.collectionImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.collectionCardTitle {
+  position: absolute;
+  left: 16px;
+  bottom: 30px;
+  font-size: 18px;
+  color: var(--primary-bg);
+}
+.collectionCardSubtitle {
+  display: flex;
+  color: var(--primary-bg);
+  position: absolute;
+  left: 16px;
+  bottom: 10px;
+  font-size: 14px;
+}

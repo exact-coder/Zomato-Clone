@@ -1,0 +1,9 @@
+.exploreSection {
+  margin-top: 16px;
+}
+
+.exploreGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

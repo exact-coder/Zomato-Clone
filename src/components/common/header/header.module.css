@@ -1,0 +1,92 @@
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.headerLogo {
+  height: 27px;
+  max-width: 140px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.headerRight {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+.headerLocationSearchContainer {
+  height: 54px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: var(--primary-box-shadow);
+  border: 1px solid var(--border-white);
+  width: 70%;
+  background-color: var(--primary-bg);
+}
+
+.locationWrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+.locationIconName {
+  display: flex;
+  color: var(--zomato-gray);
+}
+.locationIcon {
+  color: var(--zomato-red);
+  margin-right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.selectLocation {
+  cursor: pointer;
+}
+.locationSearchSeparator {
+  height: 30px;
+  border: 0.5px solid var(--gray);
+}
+.headerSearchbar {
+  display: flex;
+  flex: 2;
+}
+.searchIcon {
+  margin: 0px 12px;
+  font-size: 20px;
+  color: var(--zomato-gray);
+}
+.searchInput {
+  border: none;
+  outline: none;
+  width: 60%;
+  font-size: 14px;
+}
+.profileWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  align-items: center;
+}
+.headerProfileImage {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.headerUsername {
+  margin-left: 6px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.profileOptionsIcon {
+  font-size: 20px;
+  cursor: pointer;
+}
